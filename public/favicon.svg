@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="TravelExplore">
+ <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10263b"/><stop offset="1" stop-color="#061321"/></linearGradient>
+  <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#46e7c3"/><stop offset="1" stop-color="#04798b"/></linearGradient>
+  <clipPath id="pin"><path d="M64 10C36 10 18 30 18 55c0 35 46 65 46 65s46-30 46-65C110 30 92 10 64 10Z"/></clipPath>
+ </defs>
+ <rect width="128" height="128" rx="27" fill="url(#bg)"/>
+ <path d="M64 10C36 10 18 30 18 55c0 35 46 65 46 65s46-30 46-65C110 30 92 10 64 10Z" fill="url(#sky)" stroke="#f5fffc" stroke-width="5" stroke-linejoin="round"/>
+ <g clip-path="url(#pin)">
+  <circle cx="84" cy="37" r="13" fill="#34d399"/>
+  <path d="M13 71 42 36 61 56 74 43 114 75V115H13Z" fill="#063451"/>
+  <path d="m22 65 20-29 9 11-10-6Z" fill="#effffb"/>
+  <path d="M16 85q34-17 52-4t43-15v54H16Z" fill="#0a666d"/>
+  <path d="M91 68c-14 13-23 14-42 21s-7 15 12 17c10 1 11 4 3 14" fill="none" stroke="#eafffa" stroke-width="9" stroke-linecap="round"/>
+  <path d="M30 78V57m-6 11 6-20 6 20Z" stroke="#34d399" stroke-width="3" stroke-linejoin="round" fill="#34d399"/>
+ </g>
+</svg>
